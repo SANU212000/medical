@@ -1,0 +1,450 @@
+*{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+}
+
+.header{
+   display: flex;
+   align-items: center;
+   gap:30px;
+   padding: 0px 40px;
+   
+}
+.header h3{
+    font-size: 24px;
+    width: 210px;
+    height: 58px;
+    display: flex;
+    color: #252B42;
+    padding: 0;
+    align-items: center;
+    
+}
+.navlist{
+    display: flex;
+    gap: 21px;
+    padding: 1px;
+    font-size: 14px;
+    list-style-type: none;
+}
+.header ul li{
+    list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+}
+.button{
+    font-family:Montserrat;
+    background-color: #23A6F0;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.body{
+    
+    background-color: #fff;
+    background-size: cover;
+    
+}
+.bg{
+    background-color: #ECF4FF;
+}
+.container{
+    margin: auto;
+    max-width: 1300px;
+}
+.nav_button {
+    align-items: center;
+    display: flex;
+    gap: 45px;
+}
+
+.navbar{
+    display: flex;
+    gap: 315px;
+    align-items: center;
+}
+.Future{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.Future,header{
+    background-color: #ECF4FF;
+}
+.button2{
+    background-color: transparent;
+    padding: 15px 40px;
+    
+    color: #23A6F0;
+    border:1px solid #23A6F0;
+    border-radius: 5px;
+}
+    
+.button_action{
+    display: flex;
+    gap: 10px;
+
+}
+.t-button{
+    border: none;
+    background: transparent;
+    color: #23A6F0;
+    font-size: 14px;
+}
+.header ul li a{
+    color:#737373;
+
+}
+.Future h5{
+    font-size: 16px;
+    color: #23A6F0;
+    margin: 0;
+}
+.Future h1{
+    font-size:58px;
+    color: #252B42;
+    margin: 0px;
+}
+.Future h3{
+    font-size: 20px;
+    color: #737373;
+    margin: 0;
+}
+.Future .leftside{
+    margin: 12px 16px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.icon1 span{ 
+    background-color: #23A6F0;
+    padding: 25px 21px;
+    display: flex;
+    align-items: center;
+    font-size:32px;
+    gap: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.card_style{
+    width: 321px;
+    background-color: white;
+    box-shadow: 0px 13px 19px 0px #00000012;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 35px 40px;
+    gap: 20px;
+}
+.card-sale h6{
+    font-size: 15px;
+    margin:0px;
+}
+.card-sale span{
+    font-size: 20px;
+}
+.cards hr{
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+    align-self: self-start;
+    margin: 0%;
+    border-color: transparent;
+}
+.cards{
+    position: relative;
+    bottom: 90px; 
+    display: flex;
+    gap: 30px;
+}
+.cards h3{
+    font-size: 16px;
+    color: #252B42;
+    width: 141px;
+    height: 24px;
+
+}
+.card_style p{
+    
+    font-size:14px;
+    color:#737373;
+    font-weight: 600;
+    max-width: 222px;
+}
+.icon3{
+    background-color: #3C403D;
+    padding: 25px 21px;
+    display: flex;
+    align-items: center;
+    font-size:32px;
+    gap: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.icon2{
+    background-color:#40BB15;
+    padding: 25px 21px;
+    display: flex;
+    align-items: center;
+    font-size:32px;
+    gap: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.section-activity{
+    display: flex;
+     align-items: center;
+    /* justify-content: space-between; */
+    /* width: 1050px;
+    height: 567px; */
+    gap: 304px;
+}
+    
+.section-activity .rightside .rightmain p{
+    max-width: 351px
+}
+.section-activity .rightside .rightmain hr{
+    background-color: #E74040;
+    margin: 0%;
+    border: none;
+    width: 94px;
+    height: 7px;
+}
+.section-activity .rightside .rightmain h2{
+    font-size: 40px;
+    color: #252B42;
+}
+.section-activity .rightside .rightmain p{
+
+    font-size: 14px;
+    color: #737373;
+}
+.activity-link .linkdom{
+    color: #23A6F0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.section-activity.rightside{
+    padding: 5px 21px;
+}
+.section-activity.leftside{
+    display: flex;
+    align-items: center ;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    height: 191px;
+}
+.bg-practice-section{
+    background-color: #252B42;
+}
+.practice_advice{
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.practice_advice .topside{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 691px;
+    
+
+}
+.practice_advice .topside h6{
+    color:#23A6F0;
+    font-size: 14px;
+    margin: 0;
+   
+
+}
+.practice_advice .topside h1{
+    color: #fff;
+    font-size: 40px;
+    margin: 0%;
+
+}
+.practice_advice .topside p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    width: 469px;
+
+}
+.productcards{
+    width: 1045px;
+    gap: 30px; 
+    display: flex;
+}
+.productcards .card{
+    width: 348px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    width: 340px;
+}
+ 
+.productcards .card .card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    padding: 21px 32px 6px 23px;
+   
+}
+.productcards .card .card-info .name-rate{
+    display: flex;
+    justify-content: space-between;
+    width: 298px;
+    margin: 0px;
+}
+.productcards .card .card-info .name-rate a{
+    color:#23A6F0;
+    font-size: 14px;
+    text-decoration: none;
+    width: 192px;
+
+}
+.productcards .card .card-info .name-rate button{
+    display: flex;
+    align-items: center;
+    background-color: #252B42;
+    gap: 5px;
+    color:#fff ;
+    border-radius: 20px;
+    /* height: 26px; */
+    border: none;
+    font-size: 14px;
+    padding: 7px;
+}
+.productcards .card .card-info .name-rate button span{
+    color: gold;
+    font-size: 14px;
+    padding: 2px 2px 2px 2px;
+    position: relative;
+}
+.productcards .card .card-info h5{
+    font-size: 16px;
+    width: 131px;
+    color: #252B42;
+    margin: 0px;
+
+}
+.productcards .card .card-info p{
+    width: 230px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+    margin: 0px;
+}
+.productcards .card .card-info .card-sale{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    color: #737373;
+    font-size: 14px;
+    margin: 0px;
+
+}
+.productcards .card .card-info .card-sale span{
+    font-size: 14px;
+    margin: 0px;
+}
+.productcards .card .card-info .price{
+   display: flex;
+   align-items: center;
+   margin: 0px;
+}
+.productcards .card .card-info .price .old-offer{
+    color: #BDBDBD;
+    font-size: 14px;
+    width: 52px;
+    margin: 0px;
+}
+.productcards .card .card-info .price .newoffer{
+    color: #40BB15;
+    font-size: 14px;
+    width: 52px;
+    margin: 0px;
+}
+.productcards .card .card-info .product-link button{
+    display: flex;
+    align-items: center;
+    color: #23A6F0;
+    border: 1px solid #23A6F0;
+    background-color: transparent;
+    border-radius: 37px;
+    padding: 10px 15px 10px 15px;
+    gap: 10px;
+    margin: 0px;
+
+}
+.productcards .card img{
+    display: block;
+
+}
+.card-topside .productcard-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 10px;
+   
+    /* width: 40px; */
+}
+.productcard-icon .p-icon1{
+    /* display: flex; */
+    background-color: #fff;
+    border-radius: 44.79px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 11px 10px 12px 10px;
+    
+}
+.productcard-icon .p-icon1 span{
+    width: 20px;
+    font-size: 20px;
+    /* align-items: center;
+    display: flex; */
+    padding: 0%;
+    margin: 0%;
+    
+
+}
+.card-topside {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.p-update{
+    position: absolute;
+    top: 21px;
+    left: 24px;
+    background-color: #E74040;
+    color: white;
+    width: 32px;
+    padding: 7px 16px 11px 12px;
+    margin: 0px;
+    height: 15px;
+    box-shadow: 0px 2px 4px 0px #0000001A;
+    border-radius: 3px;
+
+}
+.p-update h6{
+    margin: 0px;
+    font-size: 14px;
+}
